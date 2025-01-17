@@ -11,5 +11,3 @@ This is a simple web application that allows users to manage a collection of boo
 - **HTML**: Structure of the application.
 - **CSS**: Styling for layout, fonts, and popup design.
 - **JavaScript**: For dynamic functionality such as adding and deleting books, and managing the popup.
-
-## Project Structure 📁
