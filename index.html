@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav">
+        <h1>Book-View</h1>
+    </div>
+    <div class="container">
+        <div class="book_cont">
+          <h2>Book Name</h2>
+          <h5>Author Name</h5>
+          <p>Describe The Book</p>
+          <button onclick="deletebook(event)">Delete</button>
+        </div>
+    </div>
+    <div class="popup-overlay">
+
+    </div>
+    <div  class="popup-box">
+        <h2>Add Book</h2>
+        <form>
+            <input placeholder="BookTitle" id="Book-Title-in">
+            <input placeholder="Book-Author" id="Book-Author-in">
+            <textarea placeholder="Short Description" id="Book-Des_in" ></textarea>
+            <button id="add-book">ADD</button>
+            <button id="cancel-popup">CANCEL</button>
+        </form>
+
+    </div>
+    <button class="add-btn" id="add-popup-btn">+</button>
+    <script src="script.js"></script>
+</body>
+</html>
